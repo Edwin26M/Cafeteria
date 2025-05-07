@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<title>Formulario</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-color: rgb(67, 67, 153);
+        }
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            font-family: cursive;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            top: 150px;
+            bottom: 200px;
+            
+        }
+        thead {
+            background-color: rgb(32, 126, 126);
+        }
+        tbody {
+  background-color: rgb(106, 184, 70);
+        }
+        th,
+td {
+  border: 2px solid black;
+  padding: 8px 10px;
+}
+
+td {
+  text-align: center;
+}
+button {
+    position: relative;
+    top: 160px;
+    left: 665px;
+}
+    </style>
+    <table>
+        <thead>
+            <tr>
+    <th><h2>Formulario</h2></th>
+            </tr>
+        </thead>
+      <tbody>  
+    <form>
+        <tr>
+        <th><label>Nombre: <input type="text"/></label><br/></th>
+        </tr>
+        <tr>
+        <th><label>Apellido: <input type="text"/></label><br/></th>
+        </tr>
+        <tr>
+        <th><label>Edad: <input type="text"/></label><br/></th>
+        </tr>
+        <tr>
+        <th><label>Telefono: <input type="text"/></label><br/></th>
+        </tr>
+    </form>
+      <tr>
+    <th>Genero: <select name="genero">
+        <option value="value1">Hombre</option>
+        <option value="value2">Mujer</option>
+    </select></th>
+      </tr>
+      </tbody>
+    </table>
+</body>
+    <button onclick="mostraralerta()">Enviar</button>
+    <script>
+        
+
+        function mostraralerta() {
+            alert("Formulario enviado correctamente");
+        }
+    </script>
+</html>
