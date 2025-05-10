@@ -3,7 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.menu{
+    height: 20%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.cafe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .menu{
     display: grid;
-    grid-column: 1;
+    grid-template-columns: 4fr;
+}
+.container{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    padding: 5px;
 }
