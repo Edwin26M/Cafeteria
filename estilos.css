@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.menu{
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .5);
+    gap: 100px;
+}
+
+.link{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a{
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagen1{
+    width: 30px;
+    height: 30px;
+    background-color: #0a0a0a;
+}
+.menu:hover{
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen{
+    display: inline-block;
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imagen img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.imagen:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li a{
+
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto 500px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 5px;
+    font: 20px cursive;
+    background-color: #15849e;
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+    font: 20px bold Arial;
+    background-color: #74c8dc;
+}
+
+footer.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: #a55b0e;
+}
+
+.info{
+    font: 20px bold Arial;
+    text-align: center;
+    color: white;
+
+}
+
+.redes ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 75px;
+    height: 80px;
+    text-align: center;
+}
+
+.redes ul li a{
+    display: block;
+    margin: 0 10px;
+    background: #0a0a0a;
+    color: white;
+    line-height: 55px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .3);
+    transition: .3s;
+}
+
+.redes ul li a:hover{
+    transform: scale(0.7);
+}
+
+.pagos i{
+    font-size: 100px;
+    margin: 30px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        margin: auto;
+    }
+    footer{
+        margin: auto;
+    }
+}
