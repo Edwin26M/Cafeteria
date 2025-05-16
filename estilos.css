@@ -38,12 +38,15 @@
 .contenedor{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 90px;
+    animation: both;
+    animation-duration: 3s;
+
 }
 
 .imagen{
     display: inline-block;
-
     height: 200px;
     width: 200px;
     border-radius: 50%;
