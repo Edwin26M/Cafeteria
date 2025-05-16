@@ -13,7 +13,7 @@
 }
 
 .link{
-    display: flex;
+    display: none;
     list-style: none;
     gap: 100px;
     margin: 0;
@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: center;
     gap: 90px;
-    animation: both;
+    animation: bounce;
     animation-duration: 3s;
 
 }
@@ -63,15 +63,17 @@
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6);
 }
 
+p{
+    text-align: center;
+    font: bold 18px cursive;
+
+}
+
 .txt {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-}
-
-nav ul li a{
-
 }
 
 table{
@@ -152,7 +154,7 @@ h1{
         transform: translateX(0);
     }
     50%{
-        transform: translateX(50px);
+        transform: translateY(50px);
     }
     100%{
         transform: translateX(0);
