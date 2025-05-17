@@ -9,13 +9,13 @@
     -library/magical.min.css"/>
 </head>
 <header>
-    <nav class="menu">
-        <img class="imagen1" src="menu.png">
-        <ul class="link">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Conócenos</a></li>
-        </ul>
+    <button class="inicio" id="img">
+        <img class="imagen1" src="menu.png" alt="Menu">
+    </button>
+    <nav class="menu" id="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Menu</a>
+            <a href="#">Conócenos</a>
     </nav>
 </header>
 <body>
@@ -27,7 +27,7 @@
     "La vida es como una taza de café, todo está en cómo la preparas."<br><br>
     “No hay lunes malos, solo cafés poco cargados."</p>
 <br><br>
-    <div class="contenedor" class="animate__animated animate__bounce">
+    <div class="contenedor" class="animate__animated animate__rubberBand">
         <a href="#"><img src="cafe.jpg" alt="Cafe" class="imagen"></a>
         <a href="#"><img src="frappe.jpg" alt="Frappe" class="imagen"></a>
         <a href="#"><img src="postre.jpg" alt="Postre" class="imagen"></a>
@@ -92,5 +92,6 @@
             <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
         </ul>
     </div>
+    <script src="main.js"></script>
 </footer>
 </html>
